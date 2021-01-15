@@ -13,7 +13,11 @@ export const Inner = styled.div`
   @media (max-width: 800px) {
     width: 100%;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 13px;
   }
   width: 1260px;
   margin: 0 auto;
@@ -25,6 +29,9 @@ export const Inner = styled.div`
   color: #666666;
 
   img {
+    @media (max-width: 800px) {
+      margin: 0 auto;
+    }
     margin-right: 55px;
   }
 
