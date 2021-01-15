@@ -1,9 +1,24 @@
 import React from 'react';
 import * as S from './styles';
 
+import contents1 from '../../assets/contents1.jpg';
+import contents2 from '../../assets/contents2.jpg';
+import contents3 from '../../assets/contents3.jpg';
+
+import contents2_1 from '../../assets/contents2-1.jpg';
+import contents2_2 from '../../assets/contents2-2.jpg';
+import contents2_3 from '../../assets/contents2-3.jpg';
+import contents2_4 from '../../assets/contents2-4.jpg';
+import contents2_5 from '../../assets/contents2-5.jpg';
+import contents2_1name from '../../assets/contents2-1name.png';
+import contents2_2name from '../../assets/contents2-2name.png';
+import contents2_3name from '../../assets/contents2-3name.png';
+import contents2_4name from '../../assets/contents2-4name.png';
+import contents2_5name from '../../assets/contents2-5name.png';
+
 const contentsData = [
   {
-    src: 'http://nventertainment.net/_upload/board/6139499400.jpg',
+    src: `${contents1}`,
     title: `'노빠꾸 로맨스' 우아! 나나, 돋보이는 존재감…차세대 연기돌 예약
     (20.12.14)`,
     content: `'노빠꾸 로맨스' 우아! 나나, 돋보이는 존재감…차세대 연기돌
@@ -19,13 +34,13 @@ const contentsData = [
     엑스포츠뉴스 | 네이버 TV연예 )`,
   },
   {
-    src: 'http://nventertainment.net/_upload/board/856954739.jpg',
+    src: `${contents2}`,
     title:
       'woo!ah!(우아!), ‘BAD GIRL’ 베트남 음악 플랫폼 뮤비 차트 1위 (20.12.14)',
     content: `woo!ah!(우아!), ‘BAD GIRL’ 베트남 음악 플랫폼 뮤비 차트 1위2020.12.14woo!ah!(우아!)를 향한 감탄사가 베트남에서 이어지고 있다.우아의 소속사 엔브이(NV)엔터테인먼트는 14일 "woo!ah!(우아!)의 신곡 'BAD GIRL'이 베트남 최대 뮤직 플랫폼 NCT 뮤직비디오 차트 1위에 올랐다"라고 밝혔다.(중략)기사 전문 :https://entertain.naver.com/read?oid=382&aid=0000878001(출처 : 스포츠동아 | 네이버 TV연예 )`,
   },
   {
-    src: 'http://nventertainment.net/_upload/board/6960544735.jpg',
+    src: `${contents3}`,
     title:
       '우아! (woo!ah!) ‘우릴 보면 감탄사가 절로 날 걸요’(영상 팬사인회) (20.12.12)',
     content: `우아! (woo!ah!) ‘우릴 보면 감탄사가 절로 날 걸요’(영상 팬사인회)2020.12.12기사 전문 :https://entertain.naver.com/read?oid=609&aid=0000371013(출처 : 뉴스엔 | 네이버 TV연예 )`,
@@ -34,24 +49,24 @@ const contentsData = [
 
 const contentsData2 = [
   {
-    imgSrc: 'http://nventertainment.net/img/main/wooyeun_img.jpg',
-    nameSrc: 'http://nventertainment.net/img/main/wooyeun.png',
+    imgSrc: `${contents2_1}`,
+    nameSrc: `${contents2_1name}`,
   },
   {
-    imgSrc: 'http://nventertainment.net/img/main/lucy_img.jpg',
-    nameSrc: 'http://nventertainment.net/img/main/lucy.png',
+    imgSrc: `${contents2_2}`,
+    nameSrc: `${contents2_2name}`,
   },
   {
-    imgSrc: 'http://nventertainment.net/img/main/nana_img.jpg',
-    nameSrc: 'http://nventertainment.net/img/main/nana.png',
+    imgSrc: `${contents2_3}`,
+    nameSrc: `${contents2_3name}`,
   },
   {
-    imgSrc: 'http://nventertainment.net/img/main/minseo_img.jpg',
-    nameSrc: 'http://nventertainment.net/img/main/minseo.png',
+    imgSrc: `${contents2_4}`,
+    nameSrc: `${contents2_4name}`,
   },
   {
-    imgSrc: 'http://nventertainment.net/img/main/sora_img.jpg',
-    nameSrc: 'http://nventertainment.net/img/main/sora.png',
+    imgSrc: `${contents2_5}`,
+    nameSrc: `${contents2_5name}`,
   },
 ];
 
@@ -129,26 +144,6 @@ const Contents = () => {
                   </div>
                 </li>
               ))}
-              {/* <li>
-                <div className="image_box">
-                  <div className="hover_box">
-                    <span>VIEW</span>
-                    <span>GO!</span>
-                  </div>
-                  <div className="wrap">
-                    <img
-                      src="http://nventertainment.net/img/main/wooyeun_img.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="text_box">
-                    <img
-                      src="http://nventertainment.net/img/main/wooyeun.png"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </li> */}
             </ul>
           </S.Inner02>
         </S.Wrapper>

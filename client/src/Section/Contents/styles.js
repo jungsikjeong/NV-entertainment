@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import con04_bg from '../../assets/con04_bg.jpg';
 
 export const Container = styled.div`
   padding-top: 100px;
@@ -407,7 +408,7 @@ export const Contents04 = styled.div`
     padding: 40px 0px;
     background-position: right -400px center;
   }
-  background-image: url('http://nventertainment.net/img/main/con04_bg.jpg');
+  background-image: url(${con04_bg});
   background-position: right center;
   background-repeat: no-repeat;
   padding-top: 60px;
