@@ -15,9 +15,6 @@ export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   padding: 15px 42px;
-
-  /* 추후 스크롤되면 */
-  /* background-color: #fff; */
   transition: 0.3s;
 `;
 
@@ -44,13 +41,12 @@ export const GlobalNav = styled.nav`
 
     li {
       padding: 0 30px;
-      font-weight: 500;
+      font-weight: 600;
       cursor: pointer;
     }
   }
 `;
 export const RightMenu = styled.div`
-  display: block;
   margin-left: auto;
   font-size: 1.5rem;
   border: 2px solid #fff;

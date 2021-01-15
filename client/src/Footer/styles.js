@@ -13,6 +13,7 @@ export const Inner = styled.div`
   @media (max-width: 800px) {
     width: 100%;
     flex-direction: column;
+    /* justify-content: center; */
   }
   width: 1260px;
   margin: 0 auto;
@@ -28,6 +29,9 @@ export const Inner = styled.div`
   }
 
   .address {
+    @media (max-width: 800px) {
+      margin-right: 0;
+    }
     padding: 1rem 0;
     margin-right: auto;
   }

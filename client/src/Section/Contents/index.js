@@ -193,17 +193,19 @@ const Contents = () => {
 
       <S.Contents04>
         <S.Inner04>
-          <span className="text_box-span">NV엔터테이먼트</span>
+          <div className="text_box">
+            <span className="text_box-span">NV엔터테이먼트</span>
 
-          <strong>
-            <span className="span_size">오디션</span>에 지원하세요!
-          </strong>
+            <strong>
+              <span className="span_size">오디션</span>에 지원하세요!
+            </strong>
 
-          <p>
-            <b>지원분야</b>뮤지션 · 배우 · 엔터테이너
-          </p>
+            <p>
+              <b>지원분야</b>뮤지션 · 배우 · 엔터테이너
+            </p>
 
-          <button className="btn">오디션 바로가기</button>
+            <button className="btn">오디션 바로가기</button>
+          </div>
         </S.Inner04>
       </S.Contents04>
     </S.Container>
