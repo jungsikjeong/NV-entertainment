@@ -67,6 +67,7 @@ export const Inner = styled.div`
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    padding: 0 20px;
   }
 
   .in_obj {
@@ -78,7 +79,7 @@ export const Inner = styled.div`
     color: #ffffff;
     span {
       @media (max-width: 768px) {
-        font-size: 16px;
+        font-size: 14px;
       }
       font-size: 22px;
       line-height: 32px;
@@ -88,7 +89,8 @@ export const Inner = styled.div`
 
     strong {
       @media (max-width: 768px) {
-        line-height: 2.5rem;
+        font-size: 30px;
+        line-height: 42px;
       }
 
       text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
@@ -108,15 +110,8 @@ export const Inner = styled.div`
         width: 100%;
       }
       width: 25%;
-
-      /* color: rgba(255, 255, 255, 0); */
       margin-top: 30px;
       cursor: pointer;
-      /* position: relative; */
-      /* transform: translate(0, 0); */
-      /* opacity: 1; */
-      /* transition: 1s; */
-      /* transition-delay: 1s; */
 
       .more_text {
         @media (max-width: 768px) {
