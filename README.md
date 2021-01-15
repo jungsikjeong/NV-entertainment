@@ -3,6 +3,7 @@
 > [NV ENTERTAINMENT](http://nventertainment.net/)사이트를 클론 코딩함
 
 ## 사이트 클론 코딩 두번째 결과물
+> [클론한 결과물 바로가기](https://nv-entertainment-clone.vercel.app/)
 
 - 레이아웃 연습 및 html,css 연습겸한 작업임
 
